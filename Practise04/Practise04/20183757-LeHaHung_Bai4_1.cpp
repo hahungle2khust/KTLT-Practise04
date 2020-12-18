@@ -32,20 +32,17 @@ void print(Node* head) {
 
 // return the new head of the reversed list
 Node* reverse(Node* head) {
-    Node* tmp = head;
-    Node* prev = NULL;
-    Node* next = NULL;
-    while (tmp != NULL)
-    {
-        next = tmp->next;
-        tmp->next = prev;
-        prev = tmp;
-        tmp = next;
+    Node* newHead{};
+    while (head != NULL) {
+        newHead = prepend(newHead, head->data);
+        head = head->next;
     }
-    return head;
+    return newHead;
 }
 
 int main() {
+    cout << "Ho va ten: Le Ha Hung" << endl;
+    cout << "MSSV: 20183757" << endl;
     int n, u;
     cin >> n;
     Node* head = NULL;

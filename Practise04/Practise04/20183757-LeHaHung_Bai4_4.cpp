@@ -6,26 +6,30 @@ void print_vector(const vector<int>& a) {
     for (int v : a) cout << v << ' ';
     cout << endl;
 }
-
+bool isEven(const int& value) { return value % 2; }
 void delete_even(vector<int>& a) {
-    /*****************
-    # YOUR CODE HERE #
-    *****************/
+    a.erase(
+        std::remove_if(
+            a.begin(), a.end(),
+            [](int i) { return i % 2 == 0; }),
+        a.end());
 }
 
 void sort_decrease(vector<int>& a) {
-    /*****************
-    # YOUR CODE HERE #
-    *****************/
+    sort(a.begin(), a.end(), [](int& x, int& y) -> bool { return x > y; });
 }
 
 vector<int> merge_vectors(const vector<int>& a, const vector<int>& b) {
-    /*****************
-    # YOUR CODE HERE #
-    *****************/
+    vector<int> res;
+    res.insert(res.end(), a.begin(), a.end());
+    res.insert(res.end(), b.begin(), b.end());
+    sort_decrease(res);
+    return res;
 }
 
 int main() {
+    cout << "Ho va ten: Le Ha Hung" << endl;
+    cout << "MSSV: 20183757" << endl;
     int m, n, u;
     std::vector<int> a, b;
 
