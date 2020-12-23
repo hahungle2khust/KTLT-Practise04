@@ -1,2 +1,5 @@
-﻿  20183757-LeHaHung_Bai4_3.cpp
+﻿  Bai4_13.cpp
+D:\20201\KTLT\practise4\KTLT-Practise04\Practise04\Practise04\Bai4_13.cpp(8,20): warning C4018: '<': signed/unsigned mismatch
+D:\20201\KTLT\practise4\KTLT-Practise04\Practise04\Practise04\Bai4_13.cpp(20,20): warning C4018: '<': signed/unsigned mismatch
+D:\20201\KTLT\practise4\KTLT-Practise04\Practise04\Practise04\Bai4_13.cpp(22,25): warning C4018: '<=': signed/unsigned mismatch
   Practise04.vcxproj -> D:\20201\KTLT\practise4\KTLT-Practise04\Practise04\Debug\Practise04.exe

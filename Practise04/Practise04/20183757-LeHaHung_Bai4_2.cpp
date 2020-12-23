@@ -14,8 +14,7 @@ double area(Point a, Point b, Point c) {
 }
 
 int main() {
-    cout << "Ho va ten: Le Ha Hung" << endl;
-    cout << "MSSV: 20183757" << endl;
+    
     cout << setprecision(2) << fixed;
     cout << area({ 1, 2 }, { 2.5, 10 }, { 15, -5.25 }) << endl;
     return 0;

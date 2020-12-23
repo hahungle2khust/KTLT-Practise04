@@ -28,8 +28,7 @@ void bfs(vector< list<int> > adj) {
 }
 
 int main() {
-	cout << "Ho va ten: Le Ha Hung" << endl;
-	cout << "MSSV: 20183757" << endl;
+	
 	int n = 7;
 	vector< list<int> > adj;
 	adj.resize(n + 1);

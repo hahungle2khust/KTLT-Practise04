@@ -12,8 +12,7 @@ Vector cross_product(Vector a, Vector b) {
 }
 
 int main() {
-    cout << "Ho va ten: Le Ha Hung" << endl;
-    cout << "MSSV: 20183757" << endl;
+    
     cout << setprecision(2) << fixed;
     Vector a{ 1.2, 4, -0.5 };
     Vector b{ 1.5, -2, 2.5 };

@@ -3,6 +3,7 @@
 #include <iomanip>
 #include <list>
 #include <stack>
+
 using namespace std;
 
 void dfs(vector< list<int> > adj) {
@@ -28,8 +29,6 @@ void dfs(vector< list<int> > adj) {
 }
 
 int main() {
-	cout << "Ho va ten: Le Ha Hung" << endl;
-	cout << "MSSV: 20183757" << endl;
 	int n = 7;
 	vector< list<int> > adj;
 	adj.resize(n + 1);

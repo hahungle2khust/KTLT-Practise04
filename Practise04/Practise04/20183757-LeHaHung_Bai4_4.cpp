@@ -28,8 +28,7 @@ vector<int> merge_vectors(const vector<int>& a, const vector<int>& b) {
 }
 
 int main() {
-    cout << "Ho va ten: Le Ha Hung" << endl;
-    cout << "MSSV: 20183757" << endl;
+    
     int m, n, u;
     std::vector<int> a, b;
 
